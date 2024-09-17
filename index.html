@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Affiliate Links</h1>
+        <a href="https://raiyan-coding.github.io/email_storage/" class="email-template-btn">Email Template</a>
+    </header>
+
+    <main>
+        <section id="affiliate-links">
+            <h2>My Links</h2>
+            <ul id="links-list">
+                <!-- Affiliate links will be displayed here -->
+            </ul>
+        </section>
+
+        <section id="add-link">
+            <h2>Add New Affiliate Link</h2>
+            <form id="link-form">
+                <label for="link-name">Link Name:</label>
+                <input type="text" id="link-name" required>
+                
+                <label for="link-url">Link URL:</label>
+                <input type="url" id="link-url" required>
+                
+                <button type="submit">Add Link</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
